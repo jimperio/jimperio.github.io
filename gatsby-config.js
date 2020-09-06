@@ -6,13 +6,19 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [{
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `markdown-pages`,
-      path: `${__dirname}/src/markdown-pages`,
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
     },
-  },
-  `gatsby-transformer-remark`,
-],
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-line-breaks`],
+      },
+    },
+  ],
 }
