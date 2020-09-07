@@ -26,5 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm install
       
-      - name: Deploy
+      - uses: oleksiyrudenko/gha-git-credentials@v1
+        with:
+          name: 'Jomel Imperio'
+          email: 'jimperio@gmail.com'
+          token: '${{ secrets.GITHUB_TOKEN }}'
         run: npm run deploy
