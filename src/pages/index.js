@@ -10,13 +10,15 @@ export default function Home() {
         <li>
           write - <Link to="/blog">all blog posts</Link>
         </li>
-        <li>read</li>
+        <li>
+          make software - CTO at <a href="https://www.insynchq.com/">Insync</a>
+        </li>
+        <li>
+          tweet - <a href="https://twitter.com/jimperio">@jimperio</a>
+        </li>
         <li>
           draw -{" "}
           <a href="https://instagram.com/jomel.draws/">IG: jomel.draws</a>
-        </li>
-        <li>
-          make software - CTO at <a href="https://www.insynchq.com/">Insync</a>
         </li>
       </ul>
     </div>
