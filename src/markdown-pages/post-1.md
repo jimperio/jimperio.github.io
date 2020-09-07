@@ -9,4 +9,4 @@ GatsbyJS, sourced from Markdown files, hosted on GitHub pages. No frills for
 now, really just wanted to focus on getting it out!
 
 Now I have no excuse, publishing a blog post is as easy as creating a Markdown
-file and running `npm run deploy`...
+file, pushing it, then letting a GitHub action perform the deploy automatically.
