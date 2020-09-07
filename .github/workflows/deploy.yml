@@ -31,4 +31,5 @@ jobs:
           name: 'Jomel Imperio'
           email: 'jimperio@gmail.com'
           token: '${{ secrets.GITHUB_TOKEN }}'
-        run: npm run deploy
+
+      - run: npm run deploy
